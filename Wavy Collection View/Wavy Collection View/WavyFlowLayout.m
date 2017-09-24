@@ -18,7 +18,7 @@
     
     newAttrs = [NSMutableArray arrayWithArray:superAttrs];
     
-    //loops around a set 13 times-(set it to 10 in masterViewController) making rectange of same shape but different y position
+    //loops around a set 36 times-(set it to 10 in masterViewController) making rectange of same shape but different y position
     for (UICollectionViewLayoutAttributes *attributes in newAttrs) {
         attributes.frame = CGRectMake(attributes.frame.origin.x, arc4random_uniform(750), self.itemSize.width, self.itemSize.height);
     }

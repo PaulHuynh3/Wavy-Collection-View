@@ -13,7 +13,6 @@
 		DA02B8D91F774A4A0042F054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA02B8D81F774A4A0042F054 /* Assets.xcassets */; };
 		DA02B8DC1F774A4A0042F054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA02B8DA1F774A4A0042F054 /* LaunchScreen.storyboard */; };
 		DA02B8E51F774C740042F054 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02B8E41F774C740042F054 /* MasterViewController.m */; };
-		DA02B8E81F774ED90042F054 /* LayoutCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02B8E71F774ED90042F054 /* LayoutCollectionViewCell.m */; };
 		DA02B8EB1F774FE50042F054 /* WavyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02B8EA1F774FE50042F054 /* WavyFlowLayout.m */; };
 /* End PBXBuildFile section */
 
@@ -28,8 +27,6 @@
 		DA02B8DD1F774A4A0042F054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		DA02B8E31F774C740042F054 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
 		DA02B8E41F774C740042F054 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
-		DA02B8E61F774ED90042F054 /* LayoutCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutCollectionViewCell.h; sourceTree = "<group>"; };
-		DA02B8E71F774ED90042F054 /* LayoutCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutCollectionViewCell.m; sourceTree = "<group>"; };
 		DA02B8E91F774FE50042F054 /* WavyFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavyFlowLayout.h; sourceTree = "<group>"; };
 		DA02B8EA1F774FE50042F054 /* WavyFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavyFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,8 +64,6 @@
 				DA02B8D51F774A4A0042F054 /* Main.storyboard */,
 				DA02B8E31F774C740042F054 /* MasterViewController.h */,
 				DA02B8E41F774C740042F054 /* MasterViewController.m */,
-				DA02B8E61F774ED90042F054 /* LayoutCollectionViewCell.h */,
-				DA02B8E71F774ED90042F054 /* LayoutCollectionViewCell.m */,
 				DA02B8E91F774FE50042F054 /* WavyFlowLayout.h */,
 				DA02B8EA1F774FE50042F054 /* WavyFlowLayout.m */,
 				DA02B8CC1F774A4A0042F054 /* Supporting Files */,
@@ -163,7 +158,6 @@
 				DA02B8D11F774A4A0042F054 /* AppDelegate.m in Sources */,
 				DA02B8EB1F774FE50042F054 /* WavyFlowLayout.m in Sources */,
 				DA02B8E51F774C740042F054 /* MasterViewController.m in Sources */,
-				DA02B8E81F774ED90042F054 /* LayoutCollectionViewCell.m in Sources */,
 				DA02B8CE1F774A4A0042F054 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
