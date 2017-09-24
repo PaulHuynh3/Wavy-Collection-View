@@ -9,10 +9,12 @@
 /* Begin PBXBuildFile section */
 		DA02B8CE1F774A4A0042F054 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02B8CD1F774A4A0042F054 /* main.m */; };
 		DA02B8D11F774A4A0042F054 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02B8D01F774A4A0042F054 /* AppDelegate.m */; };
-		DA02B8D41F774A4A0042F054 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02B8D31F774A4A0042F054 /* ViewController.m */; };
 		DA02B8D71F774A4A0042F054 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA02B8D51F774A4A0042F054 /* Main.storyboard */; };
 		DA02B8D91F774A4A0042F054 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DA02B8D81F774A4A0042F054 /* Assets.xcassets */; };
 		DA02B8DC1F774A4A0042F054 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DA02B8DA1F774A4A0042F054 /* LaunchScreen.storyboard */; };
+		DA02B8E51F774C740042F054 /* MasterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02B8E41F774C740042F054 /* MasterViewController.m */; };
+		DA02B8E81F774ED90042F054 /* LayoutCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02B8E71F774ED90042F054 /* LayoutCollectionViewCell.m */; };
+		DA02B8EB1F774FE50042F054 /* WavyFlowLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = DA02B8EA1F774FE50042F054 /* WavyFlowLayout.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,12 +22,16 @@
 		DA02B8CD1F774A4A0042F054 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DA02B8CF1F774A4A0042F054 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		DA02B8D01F774A4A0042F054 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		DA02B8D21F774A4A0042F054 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		DA02B8D31F774A4A0042F054 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		DA02B8D61F774A4A0042F054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		DA02B8D81F774A4A0042F054 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DA02B8DB1F774A4A0042F054 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DA02B8DD1F774A4A0042F054 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DA02B8E31F774C740042F054 /* MasterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MasterViewController.h; sourceTree = "<group>"; };
+		DA02B8E41F774C740042F054 /* MasterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MasterViewController.m; sourceTree = "<group>"; };
+		DA02B8E61F774ED90042F054 /* LayoutCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LayoutCollectionViewCell.h; sourceTree = "<group>"; };
+		DA02B8E71F774ED90042F054 /* LayoutCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LayoutCollectionViewCell.m; sourceTree = "<group>"; };
+		DA02B8E91F774FE50042F054 /* WavyFlowLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WavyFlowLayout.h; sourceTree = "<group>"; };
+		DA02B8EA1F774FE50042F054 /* WavyFlowLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WavyFlowLayout.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,14 +64,13 @@
 		DA02B8CB1F774A4A0042F054 /* Wavy Collection View */ = {
 			isa = PBXGroup;
 			children = (
-				DA02B8CF1F774A4A0042F054 /* AppDelegate.h */,
-				DA02B8D01F774A4A0042F054 /* AppDelegate.m */,
-				DA02B8D21F774A4A0042F054 /* ViewController.h */,
-				DA02B8D31F774A4A0042F054 /* ViewController.m */,
 				DA02B8D51F774A4A0042F054 /* Main.storyboard */,
-				DA02B8D81F774A4A0042F054 /* Assets.xcassets */,
-				DA02B8DA1F774A4A0042F054 /* LaunchScreen.storyboard */,
-				DA02B8DD1F774A4A0042F054 /* Info.plist */,
+				DA02B8E31F774C740042F054 /* MasterViewController.h */,
+				DA02B8E41F774C740042F054 /* MasterViewController.m */,
+				DA02B8E61F774ED90042F054 /* LayoutCollectionViewCell.h */,
+				DA02B8E71F774ED90042F054 /* LayoutCollectionViewCell.m */,
+				DA02B8E91F774FE50042F054 /* WavyFlowLayout.h */,
+				DA02B8EA1F774FE50042F054 /* WavyFlowLayout.m */,
 				DA02B8CC1F774A4A0042F054 /* Supporting Files */,
 			);
 			path = "Wavy Collection View";
@@ -74,6 +79,11 @@
 		DA02B8CC1F774A4A0042F054 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				DA02B8CF1F774A4A0042F054 /* AppDelegate.h */,
+				DA02B8D01F774A4A0042F054 /* AppDelegate.m */,
+				DA02B8D81F774A4A0042F054 /* Assets.xcassets */,
+				DA02B8DA1F774A4A0042F054 /* LaunchScreen.storyboard */,
+				DA02B8DD1F774A4A0042F054 /* Info.plist */,
 				DA02B8CD1F774A4A0042F054 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -150,8 +160,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DA02B8D41F774A4A0042F054 /* ViewController.m in Sources */,
 				DA02B8D11F774A4A0042F054 /* AppDelegate.m in Sources */,
+				DA02B8EB1F774FE50042F054 /* WavyFlowLayout.m in Sources */,
+				DA02B8E51F774C740042F054 /* MasterViewController.m in Sources */,
+				DA02B8E81F774ED90042F054 /* LayoutCollectionViewCell.m in Sources */,
 				DA02B8CE1F774A4A0042F054 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
